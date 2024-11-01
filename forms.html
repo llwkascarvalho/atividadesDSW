@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/forms.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/images/github.svg" alt="">
+        <nav class="nav-links">
+            <div class="burger" onclick="toggleMenu()">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+            <ul id="menu" class="menu">
+                <li><a href="index.html">menu expansivo</a></li>
+                <li><a href="galeria.html">galeria de imagens</a></li>
+                <li><a href="forms.html">formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <h1>Formulário</h1>
+            <p>Crie um formulário que possua os seguintes campos: Nome, CPF, E-mail, Telefone, Botão de envio.
+                <br>Ao digitar nos  campos CPF e Telefone, uma máscara deverá ser adicionada aos dados. Por exemplo, ao digitar o CPF 123.456.789-00, os caracteres "." e "-" devem ser adicionados automaticamente. <br>Ao clicar no botão de envio, caso os campos tenham sido preenchidos de forma incorreta, uma mensagem deverá ser exibida para o usuário.</p>
+        </div>
+        <div class="formulario">
+            <form action="">
+                <label for="">Nome</label>
+                <input type="text" placeholder="Insira seu nome">
+                <label for="">CPF</label>
+                <input type="number" placeholder="Insira seu CPF">
+                <label for="">E-mail</label>
+                <input type="text" placeholder="email@gmail.com">
+                <label for="">Telefone</label>
+                <input type="text" placeholder="Insira seu telefone">
+            </form>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

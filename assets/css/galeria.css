@@ -1,0 +1,12 @@
+.imagens {
+    margin: 32px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.imagens img {
+    max-width: 150px;
+    max-height: 150px;
+}
