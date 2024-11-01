@@ -18,9 +18,9 @@
                 <div class="linha"></div>
             </div>
             <ul id="menu" class="menu">
-                <li><a href="index.html">menu expansivo</a></li>
-                <li><a href="galeria.html">galeria de imagens</a></li>
-                <li><a href="forms.html">formulário</a></li>
+                <li><a href="index.html">Menu Expansivo</a></li>
+                <li><a href="galeria.html">Galeria de Imagens</a></li>
+                <li><a href="forms.html">Formulário</a></li>
                 <li><a href="lista-de-compras.html">Lista de Compras</a></li>
             </ul>
         </nav>
@@ -31,22 +31,24 @@
             <h1>Lista de Compras</h1>
             <p>Crie uma página para uma aplicação de lista de compras. A página deverá conter um campo de entrada e um botão para cadastrar os itens. Ao clicar no botão, o item deverá ser adicionado e deverá seguir uma sequência numérica de ordem de forma automática.</p>
         <ul>
-            <li>Adicionar itens dinamicamente: Digitar um item no campo de entrada e clicar no botão "Adicionar Item".</li>
-            <li>Testar a funcionalidade: Os itens devem ser adicionados em uma lista ordenada com numeração automática.</li>
-            <li>Validação: Garantir que itens vazios não possam ser adicionados.</li>
-            <li>Permitir que o item seja adicionado tanto ao clicar no botão, quanto ao pressionar "enter" após digitar o texto.</li>
-            <li>O campo de entrada deverá ser limpado sempre que um item for adicionado.</li>
+            <li class="li">Adicionar itens dinamicamente: Digitar um item no campo de entrada e clicar no botão "Adicionar Item".</li>
+            <li class="li">Testar a funcionalidade: Os itens devem ser adicionados em uma lista ordenada com numeração automática.</li>
+            <li class="li">Validação: Garantir que itens vazios não possam ser adicionados.</li>
+            <li class="li">Permitir que o item seja adicionado tanto ao clicar no botão, quanto ao pressionar "enter" após digitar o texto.</li>
+            <li class="li">O campo de entrada deverá ser limpado sempre que um item for adicionado.</li>
         </ul>
         </div>
         <div class="container">
             <h1>Lista de Compras</h1>
             <div class="grupo">
-              <input type="text" placeholder="Digite o item" />
-              <button>Adicionar Item</button>
+              <input type="text" id="itemInput" placeholder="Digite o item" />
+              <button onclick="addItem()">Adicionar Item</button>
             </div>
-          </div>
+            <ol id="shoppingList"></ol>
+        </div>
     </main>
 
     <script src="script.js"></script>
+    <script src="assets/js/lista-de-compras.js"></script>
 </body>
 </html>

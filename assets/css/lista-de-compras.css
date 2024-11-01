@@ -1,13 +1,14 @@
 .container {
     width: 100%;
     max-width: 400px;
-    padding: 20px;
+    padding: 32px;
     background-color: #ff8000;
     color: aliceblue;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 32px;
 }
 
 .grupo {
@@ -38,7 +39,19 @@ button:hover {
     background-color: #218838;
 }
   
-li {
+.li {
     list-style: outside;
     text-align: justify;
+}
+
+ol {
+    font-size: 22px;
+    text-align: left;
+    color: #ffffff;
+}
+  
+ol li {
+    list-style: decimal;
+    margin-left: 24px;
+    padding: 5px 0;
 }
