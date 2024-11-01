@@ -6,10 +6,11 @@
     <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/forms.css">
+    <link rel="shortcut icon" href="assets/images/github.svg" type="image/x-icon">
 </head>
 <body>
     <header>
-        <img class="logo" src="assets/images/github.svg" alt="">
+        <a href="index.html"><img class="logo" src="assets/images/github.svg" alt=""></a>
         <nav class="nav-links">
             <div class="burger" onclick="toggleMenu()">
                 <div class="linha"></div>
@@ -41,7 +42,7 @@
                 <label for="telefone">Telefone</label>
                 <input type="text" id="telefone" placeholder="Insira seu telefone" required>
 
-                <button type="submit">Enviar</button>
+                <button class="button" type="submit">Enviar</button>
                 <p id="mensagemErro" class="mensagem-erro"></p>
             </form>
         </div>

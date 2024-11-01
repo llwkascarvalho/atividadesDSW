@@ -12,7 +12,7 @@
     margin: 10px 0 5px 0;
 }
 
-.formulario input, button {
+.formulario input, .button {
     width: 400px;
     padding: 8px;
     border-radius: 8px;
@@ -20,13 +20,13 @@
     margin-bottom: 10px;
 }
 
-button {
+.button {
     background-color: #ff8000;
     color: #fff;
     transition: 0.5s;
 }
 
-button:hover{
+.button:hover{
     background-color: #f48517;
     cursor: pointer;
 }

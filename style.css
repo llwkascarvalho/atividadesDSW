@@ -16,6 +16,7 @@ header {
 }
 
 .logo {
+    position: fixed;
     width: 30px;
 }
 
