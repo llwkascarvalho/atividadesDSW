@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/lista-de-compras.css">
+    <link rel="shortcut icon" href="assets/images/github.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="assets/images/github.svg" alt=""></a>
+        <nav class="nav-links">
+            <div class="burger" onclick="toggleMenu()">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+            <ul id="menu" class="menu">
+                <li><a href="index.html">menu expansivo</a></li>
+                <li><a href="galeria.html">galeria de imagens</a></li>
+                <li><a href="forms.html">formulário</a></li>
+                <li><a href="lista-de-compras.html">Lista de Compras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <h1>Lista de Compras</h1>
+            <p>Crie uma página para uma aplicação de lista de compras. A página deverá conter um campo de entrada e um botão para cadastrar os itens. Ao clicar no botão, o item deverá ser adicionado e deverá seguir uma sequência numérica de ordem de forma automática.</p>
+        <ul>
+            <li>Adicionar itens dinamicamente: Digitar um item no campo de entrada e clicar no botão "Adicionar Item".</li>
+            <li>Testar a funcionalidade: Os itens devem ser adicionados em uma lista ordenada com numeração automática.</li>
+            <li>Validação: Garantir que itens vazios não possam ser adicionados.</li>
+            <li>Permitir que o item seja adicionado tanto ao clicar no botão, quanto ao pressionar "enter" após digitar o texto.</li>
+            <li>O campo de entrada deverá ser limpado sempre que um item for adicionado.</li>
+        </ul>
+        </div>
+        <div class="container">
+            <h1>Lista de Compras</h1>
+            <div class="grupo">
+              <input type="text" placeholder="Digite o item" />
+              <button>Adicionar Item</button>
+            </div>
+          </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
